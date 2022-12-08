@@ -1,0 +1,25 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #e4d1bd;
+}
+
+.title {
+    font-size: x-large;
+    color: #703F37;
+    text-align: center;
+}
+
+.day{
+    font-size: larger;
+    color: #703F37;
+} 
+
+.descrip{
+    font-size:large;
+}
+
+.final {
+    color: #c29591;
+    font-size: x-large;
+    text-align: center;
+}
