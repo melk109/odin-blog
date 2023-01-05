@@ -3,23 +3,59 @@ body {
     background-color: #e4d1bd;
 }
 
-.title {
+.heading {
     font-size: x-large;
     color: #703F37;
     text-align: center;
 }
 
-.day{
+.daily{
     font-size: larger;
     color: #703F37;
 } 
 
-.descrip{
-    font-size:large;
+.day{
+    font-size: x-large;
+    text-align: center;
+    color: #703F37;
+}
+
+p {
+    color: #7d94b5;
+}
+
+span {
+    color: #2b64b3;
+    font-weight: bolder;
 }
 
 .final {
     color: #c29591;
     font-size: x-large;
     text-align: center;
+    margin: 50px;
+    border: 10px #7d94b5 solid;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+}
+
+/* the items below apply to week 5, not week 4 */
+.days{
+    width: 250px;
+    height: 350px;
+    display: inline-block;
+    border: #703F37 solid 5px;
+    padding: 5px;
+    margin: 5px auto;
+}
+
+.box {
+    border: 5px #7d94b5 solid;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    color: #7d94b5;
 }
