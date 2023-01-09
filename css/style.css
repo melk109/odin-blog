@@ -1,3 +1,5 @@
+/* this style sheet is for weeks 1-4 only */
+
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #e4d1bd;
@@ -40,22 +42,4 @@ span {
 button {
     padding: 10px;
     margin: 5px;
-}
-
-/* the items below apply to week 5, not week 4 */
-.days{
-    width: 250px;
-    height: 350px;
-    display: inline-block;
-    border: #703F37 solid 5px;
-    padding: 5px;
-    margin: 5px auto;
-}
-
-.box {
-    border: 5px #7d94b5 solid;
-    margin: 5px;
-    padding: 5px;
-    display: inline-block;
-    color: #7d94b5;
 }

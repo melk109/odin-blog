@@ -1,0 +1,67 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #e6dace;
+}
+
+.head-container {
+    display: flex;
+}
+
+.page {
+    flex: 1;
+    /* flex is shorthand for: flex-grow; flex-shrink; flex-basis; */
+    text-align: center;  
+}
+
+.heading {
+    font-size: x-large;
+    color:#7d94b5;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.item{
+    flex: 1;
+    height: 475px;
+    border: #703F37 solid 3px;
+    padding: 5px;
+    margin: 2px;
+}
+
+.day{
+    color: #703F37;
+    text-align: center;
+}
+
+p {
+    color: #c29591;
+}
+
+.box {
+    border: 5px #7d94b5 solid;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    color: #7d94b5;
+}
+
+.final {
+    color: #c29591;
+    font-size: x-large;
+    text-align: center;
+    margin: 50px;
+    border: 10px #7d94b5 solid;
+    padding: 3px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 auto;
+}
+
+.buttons {
+    text-align: center;
+}
